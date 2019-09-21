@@ -19,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainSB = UIStoryboard(name:"Main",bundle:nil)
         self.viewController = mainSB.instantiateViewController(withIdentifier: "keyboard_id") as! ViewController
         
+        
+        // Add this for setting the style of tabbar items
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "HelveticaNeue-Bold",size: 20)!], for: .normal)
+        
         return true
     }
 
