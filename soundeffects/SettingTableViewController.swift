@@ -11,9 +11,12 @@ import UIKit
 class SettingTableViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
     
     var deleget:SettingControllerDelegate?
+    let descriptionSegue:String = "toDescriptionSegue"
     
     let keyColors = [UIColor.red,UIColor.black,UIColor.orange,UIColor.white,UIColor.blue]
     let keyNames = ["Key1","Key2","Key3","Key4","Key5"]
+    
+    @IBOutlet weak var tableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (keyColors.count)
@@ -36,6 +39,10 @@ class SettingTableViewController: UIViewController,UITableViewDataSource,UITable
         self.deleget = appDelegate.viewController
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == descriptionSegue, let destination = segue.destination as? descriptionViewController, let index = tableView.indexPathForSelectedRow?.row{
+            destination.index = index
+        }
+    }
    
 }

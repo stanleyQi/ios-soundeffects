@@ -21,6 +21,7 @@
 		4E55DDDB2334312900679CAB /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55DDDA2334312900679CAB /* SettingTableViewController.swift */; };
 		4E55DDDD2334345100679CAB /* TableViewCellControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55DDDC2334345100679CAB /* TableViewCellControllerTableViewCell.swift */; };
 		4E55DDDF2334458600679CAB /* SettingControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55DDDE2334458600679CAB /* SettingControllerDelegate.swift */; };
+		4E7AA48F2336ADD3002B241B /* descriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7AA48E2336ADD3002B241B /* descriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4E55DDDA2334312900679CAB /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		4E55DDDC2334345100679CAB /* TableViewCellControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellControllerTableViewCell.swift; sourceTree = "<group>"; };
 		4E55DDDE2334458600679CAB /* SettingControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingControllerDelegate.swift; sourceTree = "<group>"; };
+		4E7AA48E2336ADD3002B241B /* descriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4E55DDB523341AD500679CAB /* soundeffects */,
 				4E55DDB423341AD500679CAB /* Products */,
+				4E7AA48E2336ADD3002B241B /* descriptionViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +174,7 @@
 				4E55DDDB2334312900679CAB /* SettingTableViewController.swift in Sources */,
 				4E55DDB923341AD500679CAB /* ViewController.swift in Sources */,
 				4E55DDB723341AD500679CAB /* AppDelegate.swift in Sources */,
+				4E7AA48F2336ADD3002B241B /* descriptionViewController.swift in Sources */,
 				4E55DDDD2334345100679CAB /* TableViewCellControllerTableViewCell.swift in Sources */,
 				4E55DDDF2334458600679CAB /* SettingControllerDelegate.swift in Sources */,
 			);
