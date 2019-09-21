@@ -17,7 +17,7 @@ class ViewController: UIViewController,SettingControllerDelegate {
     @IBOutlet weak var key2: UIButton!
     @IBOutlet weak var key3: UIButton!
     @IBOutlet weak var key4: UIButton!
-    @IBOutlet weak var key5: UIButton!
+    @IBOutlet weak var key5: UIButton! 
     
     func switchSound(target: Int, newValue: Bool) {
         switch target {
